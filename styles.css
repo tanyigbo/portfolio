@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px red solid;
+    margin: 20px;
 }
 
 main {
@@ -21,6 +21,25 @@ section {
 #project-section {
     display: grid;
     grid-template-areas: "left right";
+}
+
+/* #hero-section {
+    border: solid red 3px;
+} */
+
+#hero-section img {
+    position: relative;
+}
+
+#hero-section h1 {
+    position: absolute;
+    top: 38px;
+    right: 106px;
+    color: white;
+}
+
+h1 span {
+    color: yellow;
 }
 
 img {
