@@ -2,10 +2,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 3px red solid;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#project-section {
+    display: grid;
+    grid-template-areas: "left right";
+}
+
+img {
+    max-width: 100%;
+}
+
+div img {
+    width: 800px;
 }
