@@ -326,17 +326,17 @@ textarea {
 
 .home-hero {
     color: #fff;
-    background: url(/images/programmer_4k.jpg);
+    background: url(https://raw.githubusercontent.com/tanyigbo/portfolio/main/images/programmer_4k.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size:cover;
+    background-size: cover;
     height: 100vh;
     min-height: 80rem;
     max-height: 120rem;
     position: relative
 }
 
-.hero-name{
+.hero-name {
     color: #dcd877;
     text-decoration: underline;
 }
@@ -446,11 +446,13 @@ textarea {
     font-size: 1.2rem;
     text-align: center
 }
+
 .main-footer a {
     text-decoration: underline;
     font-weight: 700;
     margin-left: 2px
 }
+
 .skills {
     display: flex;
     flex-wrap: wrap
