@@ -326,7 +326,7 @@ textarea {
 
 .home-hero {
     color: #fff;
-    background: url(https://raw.githubusercontent.com/tanyigbo/portfolio/main/images/programmer_4k.jpg);
+    background-image: url(https://raw.githubusercontent.com/tanyigbo/portfolio/main/images/programmer_4k.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
