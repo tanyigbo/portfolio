@@ -3,68 +3,117 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <title>Learn About Tobe</title>
+    <title>Tobe Anyigbo</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#about">About Me</a>|
-            <a href="#projects">Projects</a>|
-            <a href="#education">Education</a>|
-            <a href="#contact">Get In Touch</a>
-        </nav>
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <a class="header__logo-sub" href="./#">Tobe Anyigbo</a>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="./#about" class="header__link">About Me</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./#projects" class="header__link"> Projects </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
     </header>
-    <main>
-        <section id="hero-section">
-            <img src="images/programmer.jpg" alt="hero image">
-            <h1>Hi, I'm <a href="#about">Tobe Anyigbo</a></h1>
-        </section>
-        <section id="about-section">
-            <h1 id="about"> About Me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aperiam quae temporibus explicabo
-                commodi mollitia aliquam quaerat, voluptatibus quasi magni veniam esse blanditiis vitae voluptatum quod
-                voluptate maxime ut laboriosam eligendi. Expedita explicabo modi vitae soluta illo enim nihil? Vel
-                perferendis similique atque earum voluptates repellendus et id qui. Natus, ad iusto sequi maiores ut
-                perspiciatis est suscipit aliquam. Exercitationem earum voluptatem debitis itaque. Voluptatibus ipsum
-                praesentium impedit ullam provident consequatur, soluta quae. Quo, libero reiciendis, accusantium
-                obcaecati
-                laudantium praesentium vero mollitia eius quam quibusdam necessitatibus quisquam, suscipit impedit.
-                Magni,
-                dolore consequatur commodi quidem nemo distinctio officia minus dolorem reprehenderit.</p>
-            <h1 id="projects"> Projects</h1>
-        </section>
-        <section id="project-section">
-            <div id="project-1"><img src="images/conway2.jpg" alt="Conway's Game of Life">
-                <h2>Conway's Game of Life</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis eveniet doloremque dolorum odio
-                    adipisci
-                    velit nihil cum sequi nemo placeat!</p>
-                <p>Built using: <span>Python, VScode, TDD, SVN, and Jenkinis</span></p>
+    <section class="home-hero">
+        <div class="home-hero__content">
+            <h1 class="heading-primary">Hi. I'm <a href="./#about" class="hero-name">Tobe Anyigbo</a> </h1>
+        </div>
+    </section>
+
+    <section id="about" class="about sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main">About Me</span>
+            </h2>
+            <div class="about__content">
+                <div class="about__content-main">
+                    <h3 class="about__content-title">Who is Tobe?</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa corporis voluptatibus, ab quo
+                            reiciendis accusantium ad laborum. Magni quae delectus similique quo, velit ad accusamus!
+                            Laboriosam, autem assumenda! Asperiores, nemo.
+                        </p>
+                        <p class="about__content-details-para">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa corporis voluptatibus, ab quo
+                            reiciendis accusantium ad laborum. Magni quae delectus similique quo, velit ad accusamus!
+                            Laboriosam, autem assumenda! Asperiores, nemo.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="images/headshot-flipped.jpg" alt="head-shot" class="projects__row-img">
+                    </div>
+                    <div class="about__content-skills">
+                        <h3 class="about__content-title">Skills and Tools</h3>
+                        <div class="skills">
+                            <div class="skills__skill">CSS</div>
+                            <div class="skills__skill">GIT</div>
+                            <div class="skills__skill">Github</div>
+                            <div class="skills__skill">HTML</div>
+                            <div class="skills__skill">Java</div>
+                            <div class="skills__skill">JavaScript</div>
+                            <div class="skills__skill">Postman</div>
+                            <div class="skills__skill">Python</div>
+                            <div class="skills__skill">SQL</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="project-2"> <img src="images/ISS.jpg" alt="ISS">
-                <h2>ISS Location Tracker</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit sint quasi qui temporibus ea culpa
-                    quibusdam
-                    odit quos molestiae omnis.</p>
-                <p>Built using: <span>JavaScript, VScode, TDD, Git, GitHub</span></p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-bg">
+                <span class="heading-sec__main">Projects</span>
+            </h2>
+
+            <div class="projects__content">
+                <div class="projects__row">
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Project Name</h3>
+                        <p class="projects__row-content-desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum atque sit, iure amet
+                            quasi facere minus eligendi quo temporibus aperiam? Autem voluptates reprehenderit debitis
+                            a, ad nesciunt iusto repellendus.
+                        </p>
+                        <div class="skills__skill">CSS</div>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Project Name</h3>
+                        <p class="projects__row-content-desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum atque sit, iure amet
+                            quasi facere minus eligendi quo temporibus aperiam? Autem voluptates reprehenderit debitis
+                            a, ad nesciunt iusto repellendus.
+                        </p>
+                        <div class="skills__skill">CSS</div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <section id="education-section">
-            <h1 id="education">Education</h1>
-            <h2>University of Houston</h2>
-            <h4>B.S. 2019 - 2024</h4>
-            <h2>General Assembly</h2>
-            <h4>2023</h4>
-        </section>
-    </main>
-    <footer>
-        <a href="mailto:t.anyigbo@gmail.com">Email</a> |
-        <a href="https://github.com/tanyigbo">GitHub</a> |
-        <a href="https://www.linkedin.com/in/tobe-anyigbo-a29b5173/">LinkedIn</a>
+        </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        &copy; Copyright 2023. Made by
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/tanyigbo">Tobe Anyigbo</a>
     </footer>
 </body>
 
